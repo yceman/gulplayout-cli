@@ -1,0 +1,14 @@
+@import '../../node_modules/jeet/scss/index';
+@include debug;
+
+section {
+  @include center;
+}
+
+aside {
+  @include column(1/3);
+}
+
+article {
+  @include column(3/3);
+}
