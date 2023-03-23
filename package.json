@@ -1,8 +1,8 @@
 {
   "name": "gulplayout-cli",
   "version": "1.0.0",
-  "description": "Project gulp for standard layouts",
-  "main": "index.js",
+  "description": "Layout with gulp",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/yceman/gulplayout-cli.git"
   },
+  "keywords": [
+    "Gulp",
+    "CSS",
+    "Git",
+    "Grids",
+    "Rows",
+    "Stream",
+    "Streammer"
+  ],
   "author": "Marcos Morais",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yceman/gulplayout-cli/issues"
   },
-  "homepage": "https://github.com/yceman/supreme-couscous#readme",
+  "homepage": "https://github.com/yceman/gulplayout-cli#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp": "^4.0.2",
     "jeet": "^7.2.0",
-    "node-sass": "^4.10.0"
+    "node-sass": "^8.0.0"
   }
 }
